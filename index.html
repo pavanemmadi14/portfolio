@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pavan Emmadi | Data Analyst Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="bg-glow"></div>
+    <div class="bg-grid"></div>
+
+    <nav class="navbar">
+        <div class="logo">PAVAN<span>.DATA</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="badge">Data Analyst & ML Practitioner</div>
+            <h1>Hello, I'm <span class="neon-text">Pavan Emmadi</span></h1>
+            <h2 class="typing-text">I build <span class="txt-type" data-wait="3000" data-words='["Actionable Insights", "Intelligent Solutions", "Predictive Models", "Data Visualizations"]'></span></h2>
+            <p>Transforming raw data into strategic business growth through Python, SQL, and Machine Learning.</p>
+            
+            <div class="cta-group">
+                <a href="resume.pdf" download class="btn btn-primary"><i class="fas fa-download"></i> Download Resume</a>
+                <a href="#projects" class="btn btn-secondary"><i class="fas fa-eye"></i> View Projects</a>
+            </div>
+
+            <div class="social-icons">
+                <a href="https://github.com/pavanemmadi14" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/pavan-emmadi-769790304/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:pavanemmadi5@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container about-container">
+            <!-- <div class="about-img reveal">
+                <div class="img-box">
+                    <i class="fas fa-user-astronaut fa-5x"></i>
+                </div>
+            </div> -->
+
+
+            <div class="about-img reveal">
+    <img src="profile.jpg" alt="Pavan Emmadi" class="profile-photo">
+</div>
+            <div class="about-text reveal">
+                <h2 class="section-title">About <span class="highlight">Me</span></h2>
+                <p>I am a passionate <strong>Data Analyst</strong> based in Hyderabad, India. With a B.Tech in Computer Science and hands-on internship experience, I specialize in dissecting complex datasets to find clarity.</p>
+                <p>My expertise spans <strong>Python, SQL, Power BI, and Machine Learning</strong>. Whether it's cleaning messy data, building interactive dashboards, or training predictive models, I focus on delivering accuracy and efficiency.</p>
+                
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <h3>04+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>B.Tech</h3>
+                        <p>CS Graduate 2025</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>3+</h3>
+                        <p>Months Experience</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <section id="skills" class="section">
+    <div class="container">
+        <h2 class="section-title text-center">Technical <span class="highlight">Arsenal</span></h2>
+        
+        <div class="skills-wrapper">
+            <div class="skill-box">
+                <i class="fab fa-python" style="color: #ffde57;"></i>
+                <h3>Python</h3>
+            </div>
+            <div class="skill-box">
+                <i class="fas fa-database" style="color: #00f3ff;"></i>
+                <h3>SQL</h3>
+            </div>
+            <div class="skill-box">
+                <i class="fab fa-java" style="color: #f89820;"></i>
+                <h3>Java</h3>
+            </div>
+            <div class="skill-box">
+                <i class="fas fa-chart-bar" style="color: #f2c811;"></i>
+                <h3>Power BI</h3>
+            </div>
+            <div class="skill-box">
+                <i class="fas fa-file-excel" style="color: #217346;"></i>
+                <h3>Excel</h3>
+            </div>
+            <div class="skill-box">
+                <i class="fas fa-project-diagram" style="color: #e97627;"></i>
+                <h3>Tableau</h3>
+            </div>
+            <div class="skill-box">
+                <i class="fas fa-brain" style="color: #bc13fe;"></i>
+                <h3>Machine Learning</h3>
+            </div>
+            <div class="skill-box">
+                <i class="fab fa-github" style="color: #ffffff;"></i>
+                <h3>Git & GitHub</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title text-center">Featured <span class="highlight">Projects</span></h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="python">Python/ML</button>
+                <button class="filter-btn" data-filter="bi">Power BI</button>
+                <button class="filter-btn" data-filter="web">Web/SQL</button>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card reveal" data-category="bi">
+                    <div class="card-content">
+                        <h3>Car Sales Analysis</h3>
+                        <p>Analyzed large-scale car sales data to identify revenue trends and regional performance using Power BI & Python.</p>
+                        <div class="tech-stack">
+                            <span>Power BI</span>
+                            <span>Python</span>
+                            <span>SQL</span>
+                        </div>
+                        <div class="card-links">
+                            <a href="https://github.com/pavanemmadi14/Car-Sales-Analysis-Project" target="_blank" class="btn-sm"><i class="fab fa-github"></i> View Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card reveal" data-category="python">
+                    <div class="card-content">
+                        <h3>Heavy Vehicle Fuel Prediction</h3>
+                        <p>ML model predicting fuel consumption based on telemetry data. Achieved 91% accuracy.</p>
+                        <div class="tech-stack">
+                            <span>Machine Learning</span>
+                            <span>Tkinter GUI</span>
+                            <span>Pandas</span>
+                        </div>
+                        <div class="card-links">
+                            <a href="https://github.com/pavanemmadi14/Average-fuel-consumption-on-heavy-vehicles-using-machine-learning" target="_blank" class="btn-sm"><i class="fab fa-github"></i> View Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card reveal" data-category="web">
+                    <div class="card-content">
+                        <h3>Payroll Management System</h3>
+                        <p>Full-stack web application for employee salary processing and management database.</p>
+                        <div class="tech-stack">
+                            <span>Flask</span>
+                            <span>MySQL</span>
+                            <span>HTML/CSS</span>
+                        </div>
+                        <div class="card-links">
+                            <a href="https://github.com/pavanemmadi14" target="_blank" class="btn-sm"><i class="fab fa-github"></i> View Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title text-center">Journey & <span class="highlight">Certifications</span></h2>
+            
+            <div class="timeline">
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Oct 2025 - Jan 2026</div>
+                    <div class="timeline-content">
+                        <h3>Junior Data Analyst Intern</h3>
+                        <h4>Vangrotech Tech Pvt Ltd</h4>
+                        <ul>
+                            <li>Engineered Python/SQL workflows, improving data readiness by 25%.</li>
+                            <li>Built Power BI dashboards accelerating decision-making by 15%.</li>
+                            <li>Automated reporting to enhance cross-functional accuracy.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2021 - 2025</div>
+                    <div class="timeline-content">
+                        <h3>B.Tech Computer Science</h3>
+                        <h4>TKR College of Engineering and Technology</h4>
+                        <p>Graduated with 7.55 CGPA. Built strong foundation in programming and databases.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="certs-grid reveal">
+                <div class="cert-card">
+                    <i class="fas fa-certificate"></i>
+                    <span>NPTEL Java Programming</span>
+                </div>
+                <div class="cert-card">
+                    <i class="fas fa-certificate"></i>
+                    <span>Python Internship (Coding Raja)</span>
+                </div>
+                <div class="cert-card">
+                    <i class="fas fa-certificate"></i>
+                    <span>Udemy Python Bootcamp</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container contact-wrapper">
+            <div class="contact-info reveal">
+                <h2>Let's <span class="highlight">Connect</span></h2>
+                <p>I'm open to Data Analyst and Data Science opportunities. Feel free to reach out!</p>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>pavanemmadi5@gmail.com</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <span>+91 9701706026</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Hyderabad, India</span>
+                </div>
+            </div>
+<form class="contact-form reveal" id="contactForm" action="https://formspree.io/f/mkovjobz" method="POST">
+    
+    <div class="form-group">
+        <input type="text" name="name" id="name" required placeholder="Your Name">
+    </div>
+    
+    <div class="form-group">
+        <input type="email" name="email" id="email" required placeholder="Your Email">
+    </div>
+    
+    <div class="form-group">
+        <textarea name="message" id="message" rows="5" required placeholder="Your Message"></textarea>
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Send Message</button>
+    
+    <div id="status-message" style="display: none; margin-top: 15px; font-weight: bold; color: #00f3ff;"></div>
+</form>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Pavan Emmadi. Built with <i class="fas fa-code"></i> & <i class="fas fa-heart"></i></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
