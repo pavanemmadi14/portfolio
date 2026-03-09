@@ -366,6 +366,12 @@ body {
     position: relative;
     padding: 2rem;
 }
+
+
+
+
+
+
 .project-card:hover {
     border-color: var(--neon-purple);
     transform: translateY(-5px);
